@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<style>
+{
+ box-sizing:border-box;
+}
+
+
+body{
+     background-color:#ffcccc;
+     padding:20px;
+     font-family: Allura;
+}
+
+
+h1{
+   font-size:50px;
+    word-break:break-all;
+}
+
+
+.row{
+    margin:10px-16px;
+}
+
+
+.row,
+.row>.column{
+ padding:7px;
+}
+
+
+.column{
+  float:left;
+  width:33.33%;
+  display:none;
+}
+
+
+.content{
+    background-color:#ff8080;
+    padding:10;
+}
+
+
+.show{
+    display:block;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: #ff9999;
+}
+
+
+.btn.active {
+  background-color: #ff8080;
+  color: white;
+}
+
+
+.btm {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+
+.btm:hover {
+  opacity: 1;
+}
+
+
+.bts {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+</style>
+</head>
+<body>
+<div class="main">
+
+<h1><center><u>MAKESYOU</u></center></h1>
+<hr>
+
+<h2>SHOPPING TIME</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('Show all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('foundation')"> Foundation</button>
+  <button class="btn" onclick="filterSelection('Kajal')"> Kajal</button>
+  <button class="btn" onclick="filterSelection('Lipstick')"> Lipstick</button>
+</div>
+ 
+<form action="makesyou payment.html"> 
+
+<div class="row">
+  <div class="column foundation">
+    <div class="content">
+      <img src="mac.webp" alt="mac" style="width:100%">
+      <h4><center>MAC Foundation Rs 1,499 <div id="myBtmContainer">
+  <button type="submit">Buy</button></div></center></h4>
+       
+<p><center>Pro longwear nourishing waterproof foundation</center></p>
+    </div>
+  </div>
+
+
+
+<div class="column foundaiton">
+    <div class="content">
+    <img src="lakme foundation.jpg" alt="Lakme" style="width:100%">
+      <h4><center>LAKME Rs.1,299  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center>Flawless makeup foundation</center></p>
+    </div>
+  </div>
+
+
+
+<div class="column foundaiton">
+    <div class="content">
+    <img src="Kay found.webp" alt="Kay" style="width:100%">
+      <h4><center>Kay Rs.1,999  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center>Flawless makeup foundation</center></p>
+    </div>
+  </div>
+
+  
+<div class="column foundation">
+    <div class="content">
+    <img src="nykaafoundation.jpeg" alt="Nykaa" style="width:100%">
+      <h4><center>NYKAA skin genius Rs.999 <div id="myBtmContainer">
+  <button type="submit" >Buy</button>
+</div></center></h4>
+      <p><center>Hydrating foundation</center></p>
+    </div>
+  </div>
+  
+
+  <div class="column Kajal">
+    <div class="content">
+      <img src="mackajal.jpeg" alt="mac" style="width:100%">
+      <h4><center>MAC Rs.799  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center>Long lasting and smudge proof kajal</center></p>
+    </div>
+  </div>
+ 
+
+<div class="column Kajal">
+    <div class="content">
+    <img src="lakemekajal.jpeg" alt="lakme" style="width:100%">
+      <h4><center>LAKME Rs.781  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center>eyeconic 24 hrs smudge proof</center></p>
+    </div>
+  </div>
+  
+
+<div class="column Kajal">
+    <div class="content">
+    <img src="nykaakajal.jpeg" alt="nykaa" style="width:100%">
+      <h4><center>NYKAA Rs.648  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center>Rock the line</center></p>
+    </div>
+  </div>
+
+
+  <div class="column Lipstick">
+    <div class="content">
+      <img src="sugarlib.jpeg" alt="sugar" style="width:100%">
+      <h4><center>SUGAR Rs.590  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center> nude color</center></p>
+    </div>
+  </div>
+  
+
+<div class="column Lipstick">
+    <div class="content">
+    <img src="mamaearthlib.jpeg" alt="mamaearth" style="width:100%">
+      <h4><center>MAMAEARTH Rs.560  <div id="myBtmContainer">
+  <button type="submit">Buy</button>
+</div></center></h4>
+      <p><center> Naturally matte lip serum</center></p>
+    </div>
+  </div>
+ 
+ 
+<div class="column Lipstick" >
+    <div class="content">
+    <img src="plumlip.webp" alt="plum" style="width:100%">
+      <h4><center> PLUM Rs.499  <div id="myBtmContainer" >
+  <button type="submit">Buy</button></div></center></h4>
+      <p><center>For your lips</center></p>
+    </div>
+  </div>
+</form>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    s1RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) s1AddClass(x[i], "show");
+  }
+}
+
+function s1AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function s1RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+ 
+
+  });
+}
+
+
+</script>
+</body>
+</html>
+
+
+
